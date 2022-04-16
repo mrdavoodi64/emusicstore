@@ -20,6 +20,7 @@ public class HomeController {
     @Autowired
     private ProductDao productDao;
 
+//test for commit
 
     @RequestMapping("/")
     public String home() {
